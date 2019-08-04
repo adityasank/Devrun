@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DEVRUN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link href="style.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="192x192">
+    <link rel="icon" sizes="192x192">
+</head>
+
+<body>
+    <ul id="planet">
+        <li>CEO</li>
+        <li style="background-image:radial-gradient(circle at 50% 100%, #632, #964 30%, #c96 40%, #000 40%)">CEO</li>
+        <li style="background-image:radial-gradient(circle at 50% 100%, #013, #025 48%, #046 58%, #013 59%, #000 61%)">
+            Tier 1 MNC</li>
+        <li style="background-image:radial-gradient(circle at 50% 100%, #133, #255 50%, #466 60%, #133 61%, #000 63%)">
+            MNC</li>
+        <li
+            style="background-image:radial-gradient(circle at 50% 100%, #320, #651 50%, #973 60%, #320 61%, #000 63%, #000 73%, #333 75%, #333 88%, #000 90%)">
+            More PErks ON the Way</li>
+        <li style="background: linear-gradient(to right, #ad5389, #3c1053);">
+            Awesome You Just GOt Promoted Assistant Developer </li>
+        <li style="background: linear-gradient(to right, #c31432, #240b36)">
+            Congrats You are in The Development team</li>
+        <li style="background: linear-gradient(to right, #6441a5, #2a0845)">Your Performance will Be Displayed Later</li>
+    </ul>
+    <canvas id="game" width="192" height="192"></canvas>
+    <div id="hud">
+        <div></div>
+        <div id="quest">
+            <h4 class="title"></h4>
+            <h4></h4>
+            <h4></h4>
+            <table>
+                <tr>
+                    <th>Survival Days</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Bonus Earned</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Extra Bonus Earned</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Dealed With Bad Bosses</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Companies Changed</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Goals Achieved</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="total">Your Life time Achievement</th>
+                    <td class="total"></td>
+                </tr>
+            </table>
+        </div>
+        <div><a id="ok">OK</a></div>
+    </div>
+    <div id="ctrl">
+        <h3></h3>
+        <div>
+            <h3></h3><a id="prev">&lt;</a><a id="play"></a><a id="next">&gt;</a>
+        </div>
+    </div>
+    <div>
+        <i id="fs" title="Fullscreen"></i>
+        <i id="sfx" title="Audio"></i>
+    </div>
+    <div id="load">
+        <div>
+            <h1>DEVRUN</h1>
+        </div>
+        <div>
+            <p id="keys">
+
+                <marquee>    <b>Read Instructions Carefully</b></marquee>
+                <b>JUMP</b> - <b>UP</b> arrow key<br />
+                <b>SHRINK</b> - <b>DOWN</b> arrow key<br />
+                <b>MOVE</b> - <b>LEFT / RIGHT</b> arrow keys<br />
+                <b>BOOST</b> - <b>SPACE</b> key
+            </p>
+            <p id="touch">
+                <b>JUMP</b> - Swipe <b>UP</b><br />
+                <b>SHRINK</b> - Swipe <b>DOWN</b><br />
+                <b>MOVE</b> - Swipe <b>LEFT / RIGHT</b><br />
+                <b>BOOST</b> - <b>TAP</b>
+            </p>
+            <p>
+                <b class="pink">Stack Overflow</b> Makes You collect Bonus Faster  <br />
+                Use <b>SHRINK</b> to go through <b class="red">Bad People</b>.<br />
+                Use <b>BOOST</b> to destroy <b class="cyan">Negative People</b>.
+            </p>
+        </div>
+        <div><a id="start">DEVRUN</a></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
