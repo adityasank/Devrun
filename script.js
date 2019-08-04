@@ -823,12 +823,12 @@ function(t) {
 }(Game || (Game = {})),
 function(t) {
     const e = {
-            coin: "Collect $ token",
-            power: "Collect $ big token",
+            coin: "Collect $ perks",
+            power: "Collect $ big bonus",
             planet: "Travel to $",
-            fence: "Dodge junks $ time",
-            enemy: "Dodge asteroids $ time",
-            hit: "Destroy $ asteroid"
+            fence: "Dodge junks people $ time",
+            enemy: "Dodge Bosses $ time",
+            hit: "Deal with $ Boss"
         },
         s = ["Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto", "Space"];
     t.Task = class {
